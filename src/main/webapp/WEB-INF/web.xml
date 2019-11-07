@@ -22,6 +22,12 @@
   	<description></description>
   	<servlet-class>Bus_Servlets</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>loginServlet</servlet-name>
+  	<display-name>loginServlet</display-name>
+  	<description></description>
+  	<servlet-class>javazack.models.loginServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>InputController</servlet-name>
   	<url-pattern>/InputController</url-pattern>
@@ -33,5 +39,9 @@
   <servlet-mapping>
   	<servlet-name>Bus_Servlets</servlet-name>
   	<url-pattern>/Bus_Servlets</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>loginServlet</servlet-name>
+  	<url-pattern>/loginServlet</url-pattern>
   </servlet-mapping>
 </web-app>
